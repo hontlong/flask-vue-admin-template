@@ -51,10 +51,13 @@ module.exports = {
         }
       }
     },
-    after: function () {
-      if (prod_mode) return
-      require('./mock/mock-server.js')
-    }
+    after: function (app) {
+      if (prod_mode) {
+        return app => {
+        }
+      }
+      return require('./mock/mock-server.js')
+    }()
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
