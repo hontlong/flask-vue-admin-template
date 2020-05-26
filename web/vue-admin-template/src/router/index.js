@@ -51,7 +51,7 @@ export const constantRoutes = [
       path: '/dashboard',
       name: 'Dashboard',
       component: () => import('@/views/find/index'),
-      meta: { title: 'Find Similar', icon: 'dashboard' }
+      meta: { title: 'Find Similar', icon: 'el-icon-s-platform' }
     }]
   },
   // {
@@ -176,7 +176,7 @@ export const constantRoutes = [
     children: [
       {
         path: 'https://nemo.yuque.com/docs/share/d29275ab-292f-41be-9f79-7fd2ddcfcf43?# 《Item相似检索服务》',
-        meta: { title: 'Api Doc', icon: 'link' }
+        meta: { title: 'Api Doc', icon: 'el-icon-link' }
       }
     ]
   },
