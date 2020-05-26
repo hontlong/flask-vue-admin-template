@@ -11,7 +11,7 @@ flask + vue-admin-template
 
 为了构建一个可以用在flask下的简单的后台管理界面做了简化。
 
-[flask 1.1.0 文档](https://dormousehole.readthedocs.io/en/latest/)
+[flask 1.1.0 文档](https://dormousehole.readthedocs.io/en/latest/)  
 [vue-admin-template 文档](https://github.com/PanJiaChen/vue-admin-template/blob/master/README-zh.md)
 
 ## Build Setup
